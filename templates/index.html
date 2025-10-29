@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IVR Agent - Fraud Dashboard</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>IVR Agent</h1>
+      <div class="search-wrapper">
+        <span class="search-icon">🔍</span>
+        <input id="search" placeholder="Search..." />
+      </div>
+    </div>
+
+    <div class="table-wrap">
+      <table id="txnTable">
+        <thead>
+          <tr>
+            <th>Transaction ID</th>
+            <th>Client Name</th>
+            <th>Card Number</th>
+            <th>Client Phone</th>
+            <th>Amount</th>
+            <th>Bank Name</th>
+            <th>Merchant Name</th>
+            <th>Transaction Date</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for t in transactions %}
+          <tr data-id="{{t.id}}">
+            <td><strong>{{t.id}}</strong></td>
+            <td>{{t.client_name}}</td>
+            <td><code>{{t.card_number}}</code></td>
+            <td>
+              <div class="phone-wrapper">
+                <input class="phone" value="{{t.client_phone}}" />
+                <span class="edit-icon">✏️</span>
+              </div>
+            </td>
+            <td><strong>{{"%.2f"|format(t.amount)}}</strong></td>
+            <td>{{t.bank_name}}</td>
+            <td>{{t.merchant_name}}</td>
+            <td>{{t.transaction_date}}</td>
+            <td><button class="badge badge-clickable" data-action="{{t.action}}">{{t.action}}</button></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="/static/js/main.js"></script>
+</body>
+</html>

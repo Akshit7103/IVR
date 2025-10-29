@@ -1,0 +1,222 @@
+[
+  {
+    "id": "TXN001",
+    "client_name": "John Doe",
+    "card_number": "***1234",
+    "client_phone": "+917003006208",
+    "amount": 2500.75,
+    "bank_name": "Bank of America",
+    "merchant_name": "Amazon",
+    "transaction_date": "15/03/2025",
+    "action": "Resolved"
+  },
+  {
+    "id": "TXN002",
+    "client_name": "Jane Smith",
+    "card_number": "***5678",
+    "client_phone": "+919003676005",
+    "amount": 520,
+    "bank_name": "Chase Bank",
+    "merchant_name": "Walmart",
+    "transaction_date": "14/03/2025",
+    "action": "Resolved"
+  },
+  {
+    "id": "TXN003",
+    "client_name": "Alice Jones",
+    "card_number": "***9012",
+    "client_phone": "+919021341866",
+    "amount": 1300.25,
+    "bank_name": "Wells Fargo",
+    "merchant_name": "Best Buy",
+    "transaction_date": "13/03/2025",
+    "action": "Resolved"
+  },
+  {
+    "id": "TXN004",
+    "client_name": "Mike Williams",
+    "card_number": "***3456",
+    "client_phone": "+919021341866",
+    "amount": 760.5,
+    "bank_name": "Citibank",
+    "merchant_name": "Target",
+    "transaction_date": "12/03/2025",
+    "action": "Resolved"
+  },
+  {
+    "id": "TXN005",
+    "client_name": "Emily Brown",
+    "card_number": "***7890",
+    "client_phone": "+919003676005",
+    "amount": 2350.1,
+    "bank_name": "HSBC",
+    "merchant_name": "Costco",
+    "transaction_date": "11/03/2025",
+    "action": "Resolved"
+  },
+  {
+    "id": "TXN006",
+    "client_name": "Chris Taylor",
+    "card_number": "***2345",
+    "client_phone": "+917003006208",
+    "amount": 1840.75,
+    "bank_name": "Capital One",
+    "merchant_name": "Home Depot",
+    "transaction_date": "10/03/2025",
+    "action": "Resolved"
+  },
+  {
+    "id": "TXN007",
+    "client_name": "Sophia Miller",
+    "card_number": "***6789",
+    "client_phone": "+917003006208",
+    "amount": 430.3,
+    "bank_name": "TD Bank",
+    "merchant_name": "Apple Store",
+    "transaction_date": "09/03/2025",
+    "action": "Resolved"
+  },
+  {
+    "id": "TXN008",
+    "client_name": "David Moore",
+    "card_number": "***0123",
+    "client_phone": "+917003006208",
+    "amount": 1225,
+    "bank_name": "PNC Bank",
+    "merchant_name": "Nike",
+    "transaction_date": "08/03/2025",
+    "action": "Mark As Fraud"
+  },
+  {
+    "id": "TXN009",
+    "client_name": "Olivia Anderson",
+    "card_number": "***4567",
+    "client_phone": "+917003006208",
+    "amount": 2900.45,
+    "bank_name": "US Bank",
+    "merchant_name": "Sephora",
+    "transaction_date": "07/03/2025",
+    "action": "Mark As Fraud"
+  },
+  {
+    "id": "TXN010",
+    "client_name": "Amanda Garcia",
+    "card_number": "***8901",
+    "client_phone": "+919903318367",
+    "amount": 890.25,
+    "bank_name": "Chase Bank",
+    "merchant_name": "Starbucks",
+    "transaction_date": "10/03/2025",
+    "action": "Mark As Fraud"
+  },
+  {
+    "id": "TXN011",
+    "client_name": "Daniel Rodriguez",
+    "card_number": "***2346",
+    "client_phone": "+917003006208",
+    "amount": 1540,
+    "bank_name": "Wells Fargo",
+    "merchant_name": "Whole Foods",
+    "transaction_date": "10/03/2025",
+    "action": "Resolved"
+  },
+  {
+    "id": "TXN012",
+    "client_name": "Jennifer Lee",
+    "card_number": "***6780",
+    "client_phone": "+917003006208",
+    "amount": 320.75,
+    "bank_name": "Citibank",
+    "merchant_name": "CVS Pharmacy",
+    "transaction_date": "09/03/2025",
+    "action": "Resolved"
+  },
+  {
+    "id": "TXN013",
+    "client_name": "Matthew Harris",
+    "card_number": "***0124",
+    "client_phone": "+917003006208",
+    "amount": 2750,
+    "bank_name": "US Bank",
+    "merchant_name": "Tesla",
+    "transaction_date": "09/03/2025",
+    "action": "Mark As Fraud"
+  },
+  {
+    "id": "TXN014",
+    "client_name": "Ashley Clark",
+    "card_number": "***4568",
+    "client_phone": "+14155550114",
+    "amount": 680.5,
+    "bank_name": "PNC Bank",
+    "merchant_name": "Sephora",
+    "transaction_date": "08/03/2025",
+    "action": "Mark As Fraud"
+  },
+  {
+    "id": "TXN015",
+    "client_name": "Joshua Lewis",
+    "card_number": "***8902",
+    "client_phone": "+917003006208",
+    "amount": 1420,
+    "bank_name": "Capital One",
+    "merchant_name": "Microsoft Store",
+    "transaction_date": "08/03/2025",
+    "action": "Mark As Fraud"
+  },
+  {
+    "id": "TXN016",
+    "client_name": "Melissa Walker",
+    "card_number": "***2347",
+    "client_phone": "+919903318367",
+    "amount": 550.25,
+    "bank_name": "TD Bank",
+    "merchant_name": "Nordstrom",
+    "transaction_date": "07/03/2025",
+    "action": "Mark As Fraud"
+  },
+  {
+    "id": "TXN017",
+    "client_name": "Andrew Hall",
+    "card_number": "***6781",
+    "client_phone": "+14155550117",
+    "amount": 1980,
+    "bank_name": "Bank of America",
+    "merchant_name": "GameStop",
+    "transaction_date": "07/03/2025",
+    "action": "Not Answered"
+  },
+  {
+    "id": "TXN018",
+    "client_name": "Brittany Allen",
+    "card_number": "***0125",
+    "client_phone": "+14155550118",
+    "amount": 430.75,
+    "bank_name": "Chase Bank",
+    "merchant_name": "Uber",
+    "transaction_date": "06/03/2025",
+    "action": "Mark As Fraud"
+  },
+  {
+    "id": "TXN019",
+    "client_name": "Kevin Young",
+    "card_number": "***4569",
+    "client_phone": "+14155550119",
+    "amount": 3500,
+    "bank_name": "Wells Fargo",
+    "merchant_name": "Louis Vuitton",
+    "transaction_date": "06/03/2025",
+    "action": "Mark As Fraud"
+  },
+  {
+    "id": "TXN020",
+    "client_name": "Nicole King",
+    "card_number": "***8903",
+    "client_phone": "+14155550120",
+    "amount": 920.5,
+    "bank_name": "Citibank",
+    "merchant_name": "Delta Airlines",
+    "transaction_date": "05/03/2025",
+    "action": "Not Answered"
+  }
+]
