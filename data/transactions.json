@@ -80,7 +80,7 @@
     "id": "TXN008",
     "client_name": "David Moore",
     "card_number": "***0123",
-    "client_phone": "+917003006208",
+    "client_phone": "+919903974107",
     "amount": 1225,
     "bank_name": "PNC Bank",
     "merchant_name": "Nike",
@@ -96,7 +96,7 @@
     "bank_name": "US Bank",
     "merchant_name": "Sephora",
     "transaction_date": "07/03/2025",
-    "action": "Mark As Fraud"
+    "action": "Connecting"
   },
   {
     "id": "TXN010",
