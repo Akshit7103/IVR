@@ -41,7 +41,7 @@
     "bank_name": "Citibank",
     "merchant_name": "Target",
     "transaction_date": "12/03/2025",
-    "action": "Resolved"
+    "action": "Mark As Fraud"
   },
   {
     "id": "TXN005",
@@ -74,7 +74,7 @@
     "bank_name": "TD Bank",
     "merchant_name": "Apple Store",
     "transaction_date": "09/03/2025",
-    "action": "Resolved"
+    "action": "Mark As Fraud"
   },
   {
     "id": "TXN008",
@@ -96,7 +96,7 @@
     "bank_name": "US Bank",
     "merchant_name": "Sephora",
     "transaction_date": "07/03/2025",
-    "action": "Connecting"
+    "action": "Mark As Fraud"
   },
   {
     "id": "TXN010",
