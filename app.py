@@ -412,7 +412,7 @@ def voice_step7(txn_id):
     txns = read_txns()
     for t in txns:
         if t["id"] == txn_id:
-            t["action"] = "Mark As Fraud"
+            t["action"] = "Resolved"
             break
     write_txns(txns)
 
@@ -433,7 +433,7 @@ def voice_step8(txn_id):
     txns = read_txns()
     for t in txns:
         if t["id"] == txn_id:
-            t["action"] = "Mark As Fraud"
+            t["action"] = "Resolved"
             break
     write_txns(txns)
 
